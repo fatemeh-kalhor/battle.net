@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "daisyui": "^3.0.20",
+    "live-server": "^1.2.2"
+  },
+  "name": "test-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
